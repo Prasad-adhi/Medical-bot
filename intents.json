@@ -1,0 +1,50 @@
+{
+    "intents":
+    [
+        {
+            "tag":"fainted",
+            "pattern":["Someone feels like fainting, what to do?","Someone fainted, what should i do?","What to do when someone faints","Someone fainted, what to do?"],
+            "responses":["someone fainted","What to do when someone faints"]
+        },
+        {
+            "tag":"heart attack",
+            "pattern":["Someone is having a heart attack","Heart attack","What should i do when someone is having a heart attack","What to Do During a Heart Attack"],
+            "responses":["Someone had a heart attack","What to Do During a Heart Attack"]
+        },
+        {
+            "tag":"electrocuted",
+            "pattern":["Someone got electrocuted, what do i do?","Someone had an electric shock, what should i do?","If someone else has been shocked"],
+            "responses":["someone got electrocuted","If someone else has been shocked"]
+        },
+        {
+            "tag":"poisoned",
+            "pattern":["Someone drank poison, what to do?","What to do when someone drinks poison","What to do when someone gets poisoned"],
+            "responses":["someone got poisoned","Helping someone who is unconscious"]
+        },
+        {
+            "tag":"burn",
+            "pattern":["What to do if i get a burn","I got a burn","Someome got a burn, what to do?","What to do when someone gets a burn"],
+            "responses":["someone got a burn","First aid"]
+        },
+        {
+            "tag":"cold",
+            "pattern":["I caught a cold, what to do?","How to get rid of a cold?","I have cold, what to do?","Someone has cold, what to do?","What to do when someone has cold?"],
+            "responses":["what to do for a cold","How to ease symptoms"]
+        },
+        {
+            "tag":"diarrhea",
+            "pattern":["I have diarrhea, what to do?","How to get rid of diarrhea?","Someone has diarrahea, what to do?","What to do when someone has diarrhea?"],
+            "responses":["what to do for diarrhea","What to Do About Nutrition When You Have Diarrhea"]
+        },
+        {
+            "tag":"nosebleed",
+            "pattern":["What to do if my nose is bleeding?","Someone's nose is bleeding, what to do?","How to stop a nosebleed?","How Do I Stop My Nosebleed?","Nose is bleeding"],
+            "responses":["what to do for nosebleed","What to do"]
+        },
+        {
+            "tag":"sprain",
+            "pattern":["I got a sprain, what to do?","What to do for a sprain?","I sprained my ankle","I sprained a body part","Someone got a sprain, how to get rid of it?","What to do when someone gets a sprain?"],
+            "responses":["what to do for sprain","Tips to aid healing"]
+        }
+    ]
+}
